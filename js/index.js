@@ -22,7 +22,7 @@ function mySupposition(e) {
     console.log(randomLetter);
 
     guessArray.push(myLetter);
-
+    console.log(guessArray);
 
     myGuessParagraph.innerHTML = `Your Guesses so far:${guessArray}`;
     console.log(myGuessParagraph);
